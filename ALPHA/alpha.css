@@ -1,0 +1,461 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f5f5f5;
+}
+
+#HeaderSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#HeaderSection #left h1{
+    margin-left: 25px;
+    font-size: 17px;
+}
+
+#HeaderSection #right ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+#HeaderSection #right ul button{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 84px;
+    height: 34px;
+    background-color: transparent;
+    color: white;
+}
+
+#HeaderSection #left h1 span{
+    font-weight: 100;
+}
+
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 110px;
+}
+
+#BodySection h1{
+    font-size: 55px;
+    margin-bottom: 1px;
+}
+
+#BodySection p{
+    font-size: 20px;
+}
+
+#BodySection button{
+    width: 195px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    color: black;
+    font-size: 17px;
+}
+
+#BodySection #learn{
+    background-color: transparent;
+    border: 2px solid gray;
+    color: white;
+}
+
+#ContentSection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 145px;
+    padding-top: 29px;
+    border-radius: 5px;
+    color: #646673;
+}
+#ContentSection h1{
+    font-size: 36px;
+}
+#ContentSection p{
+    font-size: 20px;
+    border-top: 2px solid #e5e5e5;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+#ContentSection img{
+    width: 100%;
+}
+
+#menu{
+    display: none;
+}
+
+#IconSection{
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    color: #646464;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    padding-top: 44px;
+}
+
+#IconSection #a{
+    padding-top: 20px;
+}
+
+#IconSection section{
+    margin-left: 59px;
+}
+
+.fa.fa-bolt{
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #e89980;
+    color: white;
+    padding: 30px 40px ;
+}
+
+.fa.fa-area-chart{
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    color: white;
+    padding: 30px 27px ;
+}
+
+.fa.fa-cloud{
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    color: white;
+    padding: 31px 32px ;
+}
+
+.fa.fa-lock{
+    font-size: 30px;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    color: white;
+    padding: 30px 38px ;
+}
+
+#div1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    left: 3px;
+    top: 2px;
+    
+}
+#div4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+#ImageSection{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    color: #646464;
+    padding-bottom: 100px;
+    /* gap: 20px; */
+}
+#ImageSection div{
+    text-align: center;
+    width: 48%;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 58px
+}
+
+#ImageSection div img{
+    width: 100%;
+    /* border-radius: 5px; */
+
+}
+#ImageSection h1{
+    text-align: center;
+    padding-top: 42px;
+}
+#ImageSection p{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 17px;
+    padding-left: 33px;
+    padding-right: 32px;
+}
+
+#ImageSection button{
+    align-items: center;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    width: 161px;
+    height: 51px;
+    color: #897777;
+    font-size: 19px;
+    background-color: transparent;
+
+}
+
+#SignupSection section{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 53px;
+    background-color: #e89980; 
+}
+
+#SignupSection section h1{
+    font-size: 39px;
+    color: white;
+}
+
+#SignupSection section p{
+    font-size: 15.5px;
+    color: white;
+}
+
+#SignupSection section form{
+    display: inline-block;
+}
+
+#SignupSection section input{
+    display: inline-block;
+    width: 258px;
+    height: 40px;
+    border: none;
+    background-color: #eba893;
+    border-radius: 4px;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+
+#SignupSection section button{
+    border-radius: 7px;
+    height: 45px;
+    width: 139px;
+    color: #eba893;
+    background-color: #ffffff;
+    border-color:transparent;
+    margin-left: 13px;
+}
+
+
+#FooterSection #footer1{
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+    font-size: 30px;  
+    list-style-type: none;  
+    gap: 20px;
+    color: #c6c6c6;
+    /* font: inherit; */
+}
+
+
+#FooterSection #footer2 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;  
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+
+
+/* -----Mobile Version----- */
+
+@media (max-width: 600px)
+{
+    #menu{
+        font-size: 26px;
+        display: inline-block;
+        color: white;
+        background: rgba(192, 192, 192, 0.75);
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 21px;
+        margin-left: 15px;
+        width: 20px;
+    }
+    #HeaderSection{
+        display: none;
+    }
+    body{
+        background-size: 200%;
+        background-position-x: center;
+    }
+    #BodySection{
+        margin-top: -7px;
+        width: 80%;
+        margin: auto;
+    }
+
+    #BodySection h1{
+        margin-top: 50px;
+        font-size: 34px;
+        margin-bottom: 1px;
+    }
+    #BodySection p{
+        font-size: 18px;
+    }
+    #BodySection button{
+        width: 100%;
+    }
+    #ContentSection{
+        width: 105%;
+        margin-top: 65px;
+        padding-top: 29px;
+    }
+    #ContentSection h1{
+        font-size: 26px;
+        padding-right: 35px;
+        padding-left: 31px;
+    }
+    #ContentSection p{
+        width: 90%;
+        font-size: 20px;
+        padding-bottom: 53px;
+    }
+    br{
+        display: none;
+    } 
+    
+    #IconSection{
+        width: 100%;
+        margin-top: 21px;
+        padding-top: 40px;
+    }
+
+    #IconSection div{
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+
+    #IconSection section {
+        margin-left: -73px;
+        padding-left: 55px;
+        padding-right: 73px;
+    }
+
+    #IconSection section div{
+        display: block;
+        width: 101%;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        border-bottom: 2px solid #e5e5e5;
+        padding-top: 44px;
+        padding-left: 17px;
+        font-size: 15px;
+        position: relative;
+        left: 19px;
+        top: -26px;
+    }
+
+    #IconSection section div p{
+        padding-bottom: 50px;
+    }
+
+    #IconSection section #div4{
+        border-bottom: none;
+    }
+
+    #ImageSection{
+        display: block;
+        width: 105%;
+    }
+
+    #ImageSection div{
+        text-align: center;
+        width: 100%;
+        background-color: white;
+        padding-bottom: 42px;
+    }
+    
+    #ImageSection p{
+        font-size: 14px;
+    }
+    #ImageSection div button{
+        width: 334px;
+        height: 53px;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 20px;
+        /* color: white; */
+    } 
+
+    #SignupSection section{
+        width: 105%;
+        text-align: center;
+        margin-top: -97px;
+    }
+
+    #SignupSection section h1{
+        font-size: 28px;
+    }
+
+    #SignupSection section p{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 14.5px;
+    }
+
+    #SignupSection section input{
+        width: 366px;
+        height: 44px;
+    }
+
+    #SignupSection section button{
+        width: 370px;
+        height: 44px;
+        margin-left: 0px;
+        color: wheat;
+        font-size: 16px
+    }
+
+    #FooterSection #footer2 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+
+    }
+    #anc{
+        display: none;
+    }
+
+    .line{
+        padding-bottom: 19px;
+    }
+}
